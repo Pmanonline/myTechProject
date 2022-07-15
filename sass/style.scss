@@ -1,0 +1,35 @@
+ 
+@use "./fonts" as *;
+@use "./color" as *;
+@use "./buttons" as *;
+ 
+ 
+ 
+ 
+.navText {
+    @include h4font;
+    overflow: hidden
+}
+
+
+#btn1{
+    @include prybtn;
+    @include btntext;
+}
+
+.heroheading {
+   @include h2font;
+}
+.heroheading::first-letter {
+    text-transform: uppercase;
+
+    }
+
+.herop {
+   @include extrafont 
+}
+.herop::first-letter{
+ text-transform: uppercase;
+ 
+ }
+  
