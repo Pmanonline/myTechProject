@@ -2,20 +2,40 @@
 @use "./fonts" as *;
 @use "./color" as *;
 @use "./buttons" as *;
+@use "./reset" as *;
+@use "./reset" as *;
+@use "../components/card.scss" as *;
  
  
  
+ 
+ 
+ * {
+   @include reseting;
+   
+ }
+ .homepage {
+   background-color: $bgpry;
+ }
+//  navbar styling section starts
  
 .navText {
     @include h4font;
-    overflow: hidden
+    overflow: hidden;
+   
+
 }
 
 
 #btn1{
     @include prybtn;
     @include btntext;
+ 
+
 }
+//  navbar styling section ends
+
+//  first section styling section starts
 
 .heroheading {
    @include h2font;
@@ -32,4 +52,32 @@
  text-transform: uppercase;
  
  }
+ 
+ .heroimgp{
+    @include pfont;
+ }
   
+
+ //  first section styling section starts
+
+
+//  second section styling starts
+
+.h1secse {
+   @include h3font;}
+    .h1secse::first-letter{
+       text-transform: uppercase
+   }
+
+   .h2secse {
+      @include h3font;}
+       .h2secse::first-letter{
+          text-transform: uppercase
+      }
+
+      .psecse {
+         @include pfont;
+         font-weight: 400;
+      }
+      // second section styling ends
+ 

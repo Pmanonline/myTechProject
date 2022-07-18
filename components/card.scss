@@ -1,0 +1,21 @@
+@use "../sass/buttons" as *;
+@use "../sass/fonts" as *;
+@use "../sass/color" as *;
+
+.cardp {
+   @include pfont;
+
+}
+.cardimg{
+   border-radius:0.312rem;
+}
+.cardh3 {
+   @include h3font;}
+   .cardh3::first-letter{
+      text-transform: uppercase
+}
+
+
+.card1 {
+   border-radius: 0.312rem;
+}

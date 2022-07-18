@@ -1,7 +1,7 @@
 
 
 
-$fontfamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$fontfamily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 @mixin h1font {
     font-family: $fontfamily;
@@ -9,6 +9,7 @@ $fontfamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 96px;
     letter-spacing: 1%;
     font-weight: bold;
+     
   
 }
 
@@ -33,19 +34,19 @@ $fontfamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
      @mixin extrafont {
      font-family: $fontfamily;
-    font-size:43px;
-    line-height:47.5px;
+    font-size:2.4rem;
+    line-height:2.9rem;
     letter-spacing: 0%;
     font-weight: 400;
  }
 
-@mixin hfontplus {
-    font-family: $fontfamily;
-    font-size:34px ;
-    line-height:47.5px;
-    letter-spacing: 0%;
-    font-weight:400 ;
-}
+// @mixin hfontplus {
+//     font-family: $fontfamily;
+//     font-size:34px ;
+//     line-height:47.5px;
+//     letter-spacing: 0%;
+//     font-weight:400 ;
+// }
 
 @mixin h4font {
     font-family: $fontfamily;
@@ -72,11 +73,10 @@ $fontfamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 @mixin pfont {
     font-family: $fontfamily;
-    font-size:22x ;
-    line-height:40px;
-    letter-spacing: 1%;
+    font-size:20px ;
+    line-height:30px;
     font-weight: 400;
-    font-style: normal;
+    // font-style: normal;
     
 }
 @mixin mutedtext{
@@ -108,6 +108,9 @@ $fontfamily:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:19px ;
     line-height:25px;
     letter-spacing:0%;
-    font-weight: bold;
+    font-weight: 600;
     
 }
+
+ 
+ 

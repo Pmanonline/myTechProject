@@ -1,3 +1,41 @@
+.cardp {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.cardimg {
+  border-radius: 0.312rem;
+}
+
+.cardh3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 38x;
+  line-height: 48px;
+  letter-spacing: 2%;
+  font-weight: bold;
+}
+
+.cardh3::first-letter {
+  text-transform: uppercase;
+}
+
+.card1 {
+  border-radius: 0.312rem;
+}
+
+* {
+  padding: 10;
+  margin: 10;
+  box-sizing: border-box;
+  background-position: auto;
+}
+
+.homepage {
+  background-color: rgba(204, 73, 174, 0.4);
+}
+
 .navText {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
@@ -8,14 +46,14 @@
 }
 
 #btn1 {
-  padding: 10px 25px;
+  padding: 4px 25px;
   background-color: #6722BC !important;
   border-radius: 45px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 19px;
   line-height: 25px;
   letter-spacing: 0%;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .heroheading {
@@ -33,13 +71,52 @@
 
 .herop {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 43px;
-  line-height: 47.5px;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
   letter-spacing: 0%;
   font-weight: 400;
 }
 
 .herop::first-letter {
   text-transform: uppercase;
+}
+
+.heroimgp {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.h1secse {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 38x;
+  line-height: 48px;
+  letter-spacing: 2%;
+  font-weight: bold;
+}
+
+.h1secse::first-letter {
+  text-transform: uppercase;
+}
+
+.h2secse {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 38x;
+  line-height: 48px;
+  letter-spacing: 2%;
+  font-weight: bold;
+}
+
+.h2secse::first-letter {
+  text-transform: uppercase;
+}
+
+.psecse {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */
